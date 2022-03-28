@@ -6,7 +6,7 @@
 </head>
 <body>
     {% for candidate in candidates %}
-        {{candidate}} <br>
+        <p><a href="/candidate/{{candidate.id}}">{{ candidate }} </a>></p>
     {% endfor %}
 </body>
 </html>
